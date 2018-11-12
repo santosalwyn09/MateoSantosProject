@@ -9,7 +9,7 @@
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="0dp"
         android:gravity="center"
         android:elevation="0dp"
         android:id="@+id/appbarid"></android.support.design.widget.AppBarLayout>
@@ -20,7 +20,7 @@
         app:tabGravity="fill"
         app:tabMode="fixed"
         android:id="@+id/tablayout_id"
-        android:background="@color/colorPrimary"></android.support.design.widget.TabLayout>
+        android:background="@color/primaryColor"></android.support.design.widget.TabLayout>
     
     <android.support.v4.view.ViewPager
         android:layout_width="match_parent"

@@ -8,4 +8,5 @@
     <color name="primaryLightColor">#ffc1e3</color>
     <color name="primaryDarkColor">#bf5f82</color>
     <color name="primaryTextColor">#000000</color>
+    <color name="colorThinkPink">#eceff1</color>
 </resources>

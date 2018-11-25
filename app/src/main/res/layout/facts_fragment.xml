@@ -11,7 +11,7 @@
 
 
     <ScrollView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,7 +21,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textView4"
@@ -34,7 +34,7 @@
                 android:layout_marginRight="8dp"
                 android:text="@string/what_is_breast_cancer"
                 android:textColor="@color/primaryTextColor"
-                android:textSize="34sp"
+                android:textSize="28sp "
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -42,7 +42,7 @@
 
             <TextView
                 android:id="@+id/textView3"
-                android:layout_width="357dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:layout_marginLeft="8dp"
@@ -51,15 +51,15 @@
                 android:layout_marginRight="8dp"
                 android:text="@string/the_term_breast_cancer_refers_to_a_malignant_tumor_that_has_developed_from_cells_in_the_breast_usually_breast_cancer_either_begins_in_the_cells_of_the_lobules_which_are_the_milk_producing_glands_or_the_ducts_the_passages_that_drain_milk_from_the_lobules_to_the_nipple_less_commonly_breast_cancer_can_begin_in_the_stromal_tissues_which_include_the_fatty_and_fibrous_connective_tissues_of_the_breast"
                 android:textColor="@color/primaryTextColor"
-                android:textSize="20sp"
+                android:textSize="16sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
             <TextView
                 android:id="@+id/textView5"
-                android:layout_width="355dp"
-                android:layout_height="101dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="1dp"
@@ -68,7 +68,7 @@
                 android:layout_marginBottom="8dp"
                 android:text="@string/what_causes_breast_cancer"
                 android:textColor="@color/primaryTextColor"
-                android:textSize="30sp"
+                android:textSize="28sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -79,7 +79,7 @@
 
             <TextView
                 android:id="@+id/textView6"
-                android:layout_width="345dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:layout_marginLeft="8dp"
@@ -88,13 +88,39 @@
                 android:layout_marginBottom="8dp"
                 android:text="@string/we_do_not_know_what_causes_breast_cancer_although_we_do_know_that_certain_risk_factors_may_put_you_at_higher_risk_of_developing_it_a_person_s_age_genetic_factors_personal_health_history_and_diet_all_contribute_to_breast_cancer_risk"
                 android:textColor="@color/primaryTextColor"
-                android:textSize="20sp"
+                android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.521"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView5"
                 app:layout_constraintVertical_bias="1.0" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To know more about breast cancer, visit this sites:"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="https://www.nationalbreastcancer.org/causes-of-breast-cancer"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="https://www.mayoclinic.org/diseases-conditions/breast-cancer/symptoms-causes/syc-20352470"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="16sp" />
+
         </LinearLayout>
     </ScrollView>
 

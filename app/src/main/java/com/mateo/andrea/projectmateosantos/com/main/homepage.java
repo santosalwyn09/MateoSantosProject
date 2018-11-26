@@ -1,13 +1,12 @@
-package com.mateo.andrea.projectmateosantos;
+package com.mateo.andrea.projectmateosantos.com.main;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.Nullable;
-import android.support.design.widget.AppBarLayout;
-import android.support.design.widget.TabLayout;
-import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+
+import com.mateo.andrea.projectmateosantos.R;
 
 public class homepage extends AppCompatActivity {
     private static int SPLASH_TIME_OUT = 4000;

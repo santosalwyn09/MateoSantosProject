@@ -1,4 +1,4 @@
-package com.mateo.andrea.projectmateosantos;
+package com.mateo.andrea.projectmateosantos.com.logics;
 
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;

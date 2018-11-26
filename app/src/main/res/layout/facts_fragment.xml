@@ -9,7 +9,6 @@
     android:gravity="center"
     android:orientation="horizontal">
 
-
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
@@ -34,7 +33,7 @@
                 android:layout_marginRight="8dp"
                 android:text="@string/what_is_breast_cancer"
                 android:textColor="@color/primaryTextColor"
-                android:textSize="28sp "
+                android:textSize="28sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

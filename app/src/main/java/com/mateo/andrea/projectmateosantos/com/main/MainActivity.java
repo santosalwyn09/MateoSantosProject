@@ -1,15 +1,16 @@
-package com.mateo.andrea.projectmateosantos;
+package com.mateo.andrea.projectmateosantos.com.main;
 
-import android.content.Intent;
-import android.os.Build;
-import android.os.Handler;
 import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.mateo.andrea.projectmateosantos.R;
+import com.mateo.andrea.projectmateosantos.com.logics.ViewPagerAdapter;
+
 public class MainActivity extends AppCompatActivity {
+
 
     private TabLayout tablayout;
     private AppBarLayout appBarLayout;
@@ -29,6 +30,5 @@ public class MainActivity extends AppCompatActivity {
 
         viewPager.setAdapter(adapter);
         tablayout.setupWithViewPager(viewPager);
-
     }
 }
